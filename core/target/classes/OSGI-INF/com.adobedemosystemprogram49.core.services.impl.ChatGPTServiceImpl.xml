@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.adobedemosystemprogram49.core.services.impl.ChatGPTServiceImpl" immediate="true" activate="Activate" modified="Activate">
+  <property name="chatGPTApiHostname" type="String" value="https://api.openai.com"/>
+  <property name="chatGPTApiEndpoint" type="String" value="/v1/chat/completions"/>
+  <property name="chatGPTApiKey" type="String" value="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"/>
+  <property name="chatGPTRole" type="String" value="user"/>
+  <property name="chatGPTModel" type="String" value="gpt-3.5-turbo"/>
+  <service>
+    <provide interface="com.adobedemosystemprogram49.core.services.ChatGPTService"/>
+  </service>
+  <implementation class="com.adobedemosystemprogram49.core.services.impl.ChatGPTServiceImpl"/>
+</scr:component>

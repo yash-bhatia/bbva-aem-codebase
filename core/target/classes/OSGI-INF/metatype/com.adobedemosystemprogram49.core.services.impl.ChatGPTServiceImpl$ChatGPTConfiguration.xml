@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.2.0" localization="OSGI-INF/l10n/com.adobedemosystemprogram49.core.services.impl.ChatGPTServiceImpl$ChatGPTConfiguration">
+  <OCD id="com.adobedemosystemprogram49.core.services.impl.ChatGPTServiceImpl$ChatGPTConfiguration" name="Chat GPT Configuration" description="">
+    <AD id="chatGPTApiHostname" type="String" name="Chat GPT API Hostname" description="API Hostname for Chat GPT" default="https://api.openai.com"/>
+    <AD id="chatGPTApiEndpoint" type="String" name="Chat GPT API Endpoint" description="API Endpoint for Chat GPT" default="/v1/chat/completions"/>
+    <AD id="chatGPTApiKey" type="String" name="Chat GPT API Key" description="API Key for Chat GPT" default="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"/>
+    <AD id="chatGPTRole" type="String" name="Chat GPT Role" description="The ‘role’ can take one of three values: ‘system’, ‘user’ or the ‘assistant’" default="user"/>
+    <AD id="chatGPTModel" type="String" name="Chat GPT Model" description="The AI Model to be used" default="gpt-3.5-turbo"/>
+  </OCD>
+  <Designate pid="com.adobedemosystemprogram49.core.services.impl.ChatGPTServiceImpl">
+    <Object ocdref="com.adobedemosystemprogram49.core.services.impl.ChatGPTServiceImpl$ChatGPTConfiguration"/>
+  </Designate>
+</metatype:MetaData>

@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.3.6
+Build-Jdk-Spec: 22
+Implementation-Title: adobedemosystemprogram49 - UI config
+Implementation-Version: 0.0.1-SNAPSHOT
+Content-Package-Type: container
+Content-Package-Id: com.adobedemosystemprogram49:aem-adobedemosystemprog
+ ram49-project.ui.config:0.0.1-SNAPSHOT
+Content-Package-Description: UI config package for adobedemosystemprogra
+ m49
+Content-Package-Roots: /apps/adobedemosystemprogram49/osgiconfig
+

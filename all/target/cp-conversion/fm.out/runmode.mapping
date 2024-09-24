@@ -1,0 +1,5 @@
+#File edited by the Apache Sling Content Package to Sling Feature converter
+#Mon Sep 23 15:36:57 IST 2024
+(default)=aem-adobedemosystemprogram49-project.all.json
+author=aem-adobedemosystemprogram49-project.all-author.json
+publish=aem-adobedemosystemprogram49-project.all-publish.json

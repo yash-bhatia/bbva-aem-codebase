@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.3.6
+Build-Jdk-Spec: 22
+Implementation-Title: adobedemosystemprogram49 - UI content
+Implementation-Version: 0.0.1-SNAPSHOT
+Content-Package-Type: content
+Content-Package-Id: com.adobedemosystemprogram49:aem-adobedemosystemprog
+ ram49-project.ui.content:0.0.1-SNAPSHOT
+Content-Package-Description: UI content package for adobedemosystemprogr
+ am49
+Content-Package-Dependencies: com.adobedemosystemprogram49:aem-adobedemo
+ systemprogram49-project.ui.apps:0.0.1-SNAPSHOT
+Content-Package-Dependencies-Locations: com.adobedemosystemprogram49:aem
+ -adobedemosystemprogram49-project.ui.apps:0.0.1-SNAPSHOT=maven:com.adob
+ edemosystemprogram49:aem-adobedemosystemprogram49-project.ui.apps:0.0.1
+ -SNAPSHOT:zip
+Content-Package-Roots: /conf/adobedemosystemprogram49,/content/adobedemo
+ systemprogram49,/content/dam/adobedemosystemprogram49,/content/dam/adob
+ edemosystemprogram49/asset.jpg,/content/experience-fragments/adobedemos
+ ystemprogram49
+

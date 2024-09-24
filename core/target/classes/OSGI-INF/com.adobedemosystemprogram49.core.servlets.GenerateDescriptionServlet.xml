@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.adobedemosystemprogram49.core.servlets.GenerateDescriptionServlet" immediate="true">
+  <property name="service.description" type="String" value="ChatGPT Integration"/>
+  <property name="sling.servlet.methods" type="String" value="GET"/>
+  <property name="sling.servlet.paths" type="String" value="/bin/gen-ai/variations"/>
+  <service>
+    <provide interface="javax.servlet.Servlet"/>
+  </service>
+  <reference name="chatGPTService" interface="com.adobedemosystemprogram49.core.services.ChatGPTService" field="chatGPTService"/>
+  <reference name="replicator" interface="com.day.cq.replication.Replicator" field="replicator"/>
+  <implementation class="com.adobedemosystemprogram49.core.servlets.GenerateDescriptionServlet"/>
+</scr:component>

@@ -1,0 +1,4 @@
+com/adobedemosystemprogram49/it/tests/CreatePageIT.class
+com/adobedemosystemprogram49/it/tests/PublishPageValidationIT.class
+com/adobedemosystemprogram49/it/tests/GetPageIT.class
+com/adobedemosystemprogram49/it/tests/HtmlUnitClient.class

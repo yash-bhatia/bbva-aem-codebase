@@ -1,0 +1,46 @@
+{
+  "id":"com.adobedemosystemprogram49:aem-adobedemosystemprogram49-project.all:slingosgifeature:author:0.0.1-SNAPSHOT",
+  "configurations":  {
+    "com.adobe.granite.cors.impl.CORSPolicyImpl~adobedemosystemprogram49":    {
+      "supportscredentials":true,
+      "exposedheaders":[
+        ""
+      ],
+      "supportedmethods":[
+        "GET",
+        "HEAD",
+        "POST"
+      ],
+      "alloworigin":[
+        "*"
+      ],
+      "maxage:Integer":1800,
+      "alloworiginregexp":[
+        ".*"
+      ],
+      "allowedpaths":[
+        "/libs/granite/csrf/token.json",
+        "/(content|conf)/adobedemosystemprogram49.*",
+        "/bin/gen-ai/*"
+      ],
+      "supportedheaders":[
+        "Origin",
+        "Accept",
+        "X-Requested-With",
+        "Content-Type",
+        "Access-Control-Request-Method",
+        "Access-Control-Request-Headers",
+        "Authorization",
+        "CSRF-Token"
+      ],
+      ":configurator:content-package-origins":"com.adobedemosystemprogram49:aem-adobedemosystemprogram49-project.all:0.0.1-SNAPSHOT|com.adobedemosystemprogram49:aem-adobedemosystemprogram49-project.ui.config:0.0.1-SNAPSHOT"
+    },
+    "com.day.cq.wcm.mobile.core.impl.MobileEmulatorProvider~adobedemosystemprogram49":    {
+      "mobile.resourceTypes":[
+        "adobedemosystemprogram49/components/page"
+      ],
+      "README":"Indicate which page resource types should display the mobile emulators.",
+      ":configurator:content-package-origins":"com.adobedemosystemprogram49:aem-adobedemosystemprogram49-project.all:0.0.1-SNAPSHOT|com.adobedemosystemprogram49:aem-adobedemosystemprogram49-project.ui.config:0.0.1-SNAPSHOT"
+    }
+  }
+}

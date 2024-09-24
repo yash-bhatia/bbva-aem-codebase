@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.3.6
+Build-Jdk-Spec: 22
+Implementation-Title: adobedemosystemprogram49 - Repository Structure Pa
+ ckage
+Implementation-Version: 0.0.1-SNAPSHOT
+Content-Package-Type: mixed
+Content-Package-Id: com.adobedemosystemprogram49:aem-adobedemosystemprog
+ ram49-project.ui.apps.structure:0.0.1-SNAPSHOT
+Content-Package-Description: Empty package that defines the structure of
+  the Adobe Experience Manager repository the Code packages in this proj
+ ect deploy into.
+         Any roots in the Code packages of this projec
+ t should have their parent enumerated in the Filters list below.
+Content-Package-Roots: /apps,/apps/adobedemosystemprogram49,/apps/cq,/ap
+ ps/dam,/apps/msm,/apps/settings,/apps/sling,/apps/wcm,/content/dam/adob
+ edemosystemprogram49
+
